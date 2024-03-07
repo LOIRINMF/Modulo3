@@ -27,7 +27,6 @@ header {
     justify-content: center;
     align-items: center;
 
-    width: 100%;
     padding: 20px;
 
     background-color: black;
@@ -118,6 +117,8 @@ footer {
     justify-content: center;
     align-items: center;
 
+    padding: 10px;
+    
     background-color: black;
 
     & p {
