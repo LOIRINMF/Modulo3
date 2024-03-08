@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> tabela 01 </title>
+</head>
+<style>
+    table {
+        width: 400px;
+        border-collapse: collapse;
+    }
+
+    .linha {
+        background-color: aqua;
+    }
+
+    td {
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    .box {
+        background-color: yellow;
+    }
+</style>
+
+<body>
+
+    <h1>Testando o hieraquia das tabelas</h1>
+
+    <table>
+
+        <tr class="linha">
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+
+        <tr>
+            <td>A2</td>
+            <td class="box">B2</td>
+            <td>C2</td>
+        </tr>
+
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+    </table>
+    <!--
+    Hieraquia (simples)
+        TABLE = TABELA
+         TABLE ROWS = LINHAS DA T
+          TABLE HEADER = CABEÇALHO DA t
+           TABLE DATA = DADOS DA T
+
+       QUALQUER COISA PODE QUEBRA TODA TABELA.
+-->
+</body>
+
+</html>
