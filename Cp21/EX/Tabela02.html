@@ -27,7 +27,6 @@
         border: 1px solid rgb(253, 253, 253);
         padding: 10px;
 
-
     }
 
     thead,
@@ -35,17 +34,22 @@
         background-color: gray;
         color: aliceblue;
     }
+
     caption {
         font-size: 1.53m;
         font-weight: bold;
+
         padding: 10px;
 
-        color: aqua;
+        color: rgb(255, 255, 255);
         background-color: rgb(17, 144, 148);
     }
 
-    .nume {
+    tbody > tr:nth-child(even){
+        background-color: rgba(19, 197, 197, 0.712);
+    }
 
+    .nume {
         text-align: right;
     }
 </style>
@@ -60,14 +64,14 @@
                 TR,TD,TH
             T-FOOT
                 TR,TD,TH
-    -->>
+    -->
     <table>
         <caption> População dos país </caption>
         <thead>
 
             <tr>
                 <th scope="col">País</th>
-                <th scope="col" style="width: 80px;">População</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
 
@@ -113,7 +117,7 @@
 
             <tr>
                 <th scope="row">Total de habitantes</th>
-                <td class="nume"><strong>1.298.846.42</strong></td>
+                <td class="nume"><strong>+- 1.298.846.42</strong></td>
             </tr>
         </tfoot>
     </table>
