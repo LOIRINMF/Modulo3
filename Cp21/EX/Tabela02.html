@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tabela 2 </title>
+</head>
+
+<style>
+    body {
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+        width: 500px;
+        color: aliceblue;
+
+        border-collapse: collapse;
+    }
+
+    td,
+    th {
+        border: 1px solid rgb(253, 253, 253);
+        padding: 10px;
+
+
+    }
+
+    thead,
+    tfoot {
+        background-color: gray;
+        color: aliceblue;
+    }
+
+    .nume {
+
+        text-align: right;
+    }
+
+</style>
+
+<body>
+    <!-- Anotomia para tabelas G
+        TABLE
+            T-HEAD
+                TR,TD,TH
+            T-BODY
+                TR,TD,TH
+            T-FOOT
+                TR,TD,TH
+    -->>
+    <table>
+
+        <thead>
+
+            <tr>
+                <th>País</th>
+                <th>População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Brasil</td>
+                <td class="nume">203.080.756 </td>
+            </tr>
+
+            <tr>
+                <td>Bangladesh</td>
+                <td class="nume">172.452.382</td>
+            </tr>
+
+            <tr>
+                <td>Rússia</td>
+                <td class="nume">146.140.931</td>
+            </tr>
+
+            <tr>
+                <td>México</td>
+                <td class="nume">134.127.189</td>
+            </tr>
+
+            <tr>
+                <td>Japão</td>
+                <td class="nume">124.127.899</td>
+            </tr>
+
+            <tr>
+                <td>Egito</td>
+                <td class="nume">102.334.404</td>
+            </tr>
+
+            <tr>
+                <td>Ucrânia</td>
+                <td class="nume">43.733.762</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+
+            <tr>
+                <th>Total de habitantes</th>
+                <td class="nume"><strong>1.298.846.42</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
